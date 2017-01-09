@@ -1,0 +1,58 @@
+/*Google Fonts import*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    padding: 40px;
+    border-bottom: solid grey 1px;
+}
+
+h2, p {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+span {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.icon {
+    padding: 0 5%;
+    max-width: 100%;
+    float: left;
+    margin: 0 auto;
+    border-bottom: solid grey 1px;
+}
+
+img {
+    max-width: 40%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+/*Media query for screens greater than 640px*/
+@media (min-width:640px) {
+    img {
+        max-width: 60%;
+    }
+    .icon {
+        max-width: 39.89%;
+        height: 350px;
+        border-left: solid grey 1px;
+    }
+}
+
+/*Media query for screens greater than 1020px*/
+@media (min-width:1020px) {
+    .icon {
+        max-width: 14.93333%;
+        height: 300px;
+    }
+}
